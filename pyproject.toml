@@ -1,0 +1,21 @@
+[project]
+name = "image-enhancement"
+version = "0.3.0"
+description = "AI-powered image enhancement web app with super-resolution, face restoration, and advanced filters"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "python-multipart",
+    "opencv-python",
+    "numpy",
+    "pillow",
+    "pillow-heif",
+    "torch",
+    "torchvision",
+    "realesrgan",
+    "basicsr",
+    "facexlib",
+    "gfpgan",
+]
